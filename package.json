@@ -21,8 +21,6 @@
     "web-vitals": "^2.1.4"
   },
   "overrides": {
-    "w3c-hr-time": "npm:@js-temporal/polyfill@0.4.4",
-    "stable": "npm:array.prototype.sort@1.1.4",
     "rimraf": "^4.4.1",
     "rollup-plugin-terser": "npm:@rollup/plugin-terser@^0.4.4",
     "sourcemap-codec": "npm:@jridgewell/sourcemap-codec@^1.4.15",
