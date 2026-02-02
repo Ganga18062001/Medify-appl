@@ -13,12 +13,20 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.9.0",
     "date-fns": "^4.1.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-router-dom": "^7.6.0",
     "react-scripts": "5.0.1",
     "swiper": "^11.2.6",
     "web-vitals": "^2.1.4"
+  },
+  "overrides": {
+    "w3c-hr-time": "npm:@js-temporal/polyfill@0.4.4",
+    "stable": "npm:array.prototype.sort@1.1.4",
+    "rimraf": "^4.4.1",
+    "rollup-plugin-terser": "npm:@rollup/plugin-terser@^0.4.4",
+    "sourcemap-codec": "npm:@jridgewell/sourcemap-codec@^1.4.15",
+    "q": "npm:promise-polyfill@^8.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
