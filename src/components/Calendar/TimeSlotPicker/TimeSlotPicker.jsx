@@ -43,12 +43,19 @@ export default function TimeSlotPicker({
           px={{ xs: 0, md: 6 }}
           flexWrap={"wrap"}
         >
-          <Typography
-            width={{ xs: 1, md: "15%" }}
-            fontSize={{ xs: 14, md: 16 }}
+          <p
+            style={{
+              width: '100%',
+              fontSize: '14px',
+              margin: 0,
+              '@media (min-width: 900px)': {
+                width: '15%',
+                fontSize: '16px'
+              }
+            }}
           >
             Morning
-          </Typography>
+          </p>
           {availableSlots.morning.map((slot) => (
             <CustomChip
               key={slot}
@@ -65,12 +72,19 @@ export default function TimeSlotPicker({
           px={{ xs: 0, md: 6 }}
           flexWrap={"wrap"}
         >
-          <Typography
-            width={{ xs: 1, md: "15%" }}
-            fontSize={{ xs: 14, md: 16 }}
+          <p
+            style={{
+              width: '100%',
+              fontSize: '14px',
+              margin: 0,
+              '@media (min-width: 900px)': {
+                width: '15%',
+                fontSize: '16px'
+              }
+            }}
           >
             Afternoon
-          </Typography>
+          </p>
           {availableSlots.afternoon.map((slot) => (
             <CustomChip
               key={slot}
@@ -80,19 +94,26 @@ export default function TimeSlotPicker({
           ))}
         </Stack>
       )}
-      {availableSlots.afternoon.length > 0 && (
+      {availableSlots.evening.length > 0 && (
         <Stack
           direction="row"
           alignItems="center"
           px={{ xs: 0, md: 6 }}
           flexWrap={"wrap"}
         >
-          <Typography
-            width={{ xs: 1, md: "15%" }}
-            fontSize={{ xs: 14, md: 16 }}
+          <p
+            style={{
+              width: '100%',
+              fontSize: '14px',
+              margin: 0,
+              '@media (min-width: 900px)': {
+                width: '15%',
+                fontSize: '16px'
+              }
+            }}
           >
             Evening
-          </Typography>
+          </p>
           {availableSlots.evening.map((slot) => (
             <CustomChip
               key={slot}

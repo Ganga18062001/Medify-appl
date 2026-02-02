@@ -1,0 +1,16 @@
+[
+  {
+    "Hospital Name": "southeast alabama medical center",
+    "City": "DOTHAN",
+    "State": "Alabama",
+    "Hospital Type": "General",
+    "Hospital overall rating": "4.5"
+  },
+  {
+    "Hospital Name": "another hospital",
+    "City": "DOTHAN",
+    "State": "Alabama",
+    "Hospital Type": "Specialty",
+    "Hospital overall rating": "3.8"
+  }
+]

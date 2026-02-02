@@ -54,12 +54,18 @@ export default function DaySelector({
               onClick={() => handleClick(day)}
               sx={{ cursor: "pointer" }}
             >
-              <Typography
-                fontWeight={isEqual(day, selectedDate) ? 700 : 400}
-                fontSize={{ xs: 11, md: 16 }}
+              <p
+                style={{
+                  fontWeight: isEqual(day, selectedDate) ? 700 : 400,
+                  fontSize: '11px',
+                  margin: 0,
+                  '@media (min-width: 900px)': {
+                    fontSize: '16px'
+                  }
+                }}
               >
                 {customDateFormat(day)}
-              </Typography>
+              </p>
               <Typography fontSize={{ xs: 8, md: 12 }} color="primary.green">
                 {`${totalSlots} Slots Available`}
               </Typography>
